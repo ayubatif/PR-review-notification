@@ -72,6 +72,7 @@ def main():
         mails = emailFinder(readme)
         for to_addr in mails:
             sendEmail(username, pwd, domain, to_addr, message)
+            print("hi")
 
 
 if __name__ == "__main__":
