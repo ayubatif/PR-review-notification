@@ -4,7 +4,6 @@ on:
   
 jobs:
   Notifier:
-    name: Notifier
     runs-on: ubuntu-latest
     steps:
     - name: setup
