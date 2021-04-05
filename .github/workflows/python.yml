@@ -7,10 +7,10 @@ jobs:
     name: Notifier
     runs-on: ubuntu-latest
     steps:
-      - name: setup
-      - uses: isacarvid/PR-review-notification@v1
-        with:
-          usernameSecret: ${{ secrets.EMAIL_USERNAME }}
-          passwordSecret: ${{ secrets.EMAIL_PASSWORD }}
-          domainSecret: ${{ secrets.EMAIL_DOMAIN }}
-          keyword: '#notify'
+    - name: setup
+    - uses: isacarvid/PR-review-notification@v1
+      with:
+        usernameSecret: ${{ secrets.EMAIL_USERNAME }}
+        passwordSecret: ${{ secrets.EMAIL_PASSWORD }}
+        domainSecret: ${{ secrets.EMAIL_DOMAIN }}
+        keyword: '#notify'
