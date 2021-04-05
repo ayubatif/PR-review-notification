@@ -3,10 +3,10 @@ on:
   push:
   
 jobs:
-  Notifier:
+  setup:
     runs-on: ubuntu-latest
     steps:
-    - name: setup
+    - name: PR review notification
     - uses: isacarvid/PR-review-notification@v1
       with:
         usernameSecret: ${{ secrets.EMAIL_USERNAME }}
