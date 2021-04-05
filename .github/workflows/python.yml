@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: PR review notification
-    - uses: isacarvid/PR-review-notification@v1
+      uses: isacarvid/PR-review-notification@v1
       with:
         usernameSecret: ${{ secrets.EMAIL_USERNAME }}
         passwordSecret: ${{ secrets.EMAIL_PASSWORD }}
