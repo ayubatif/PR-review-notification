@@ -2,3 +2,4 @@ This GitHub action triggers on push to test marketplace action import functional
 
 ## sample mails for testing pr review
 testactionkth@gmail.com
+.
