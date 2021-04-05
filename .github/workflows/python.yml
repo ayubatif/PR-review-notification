@@ -1,6 +1,7 @@
 name: Notifier
 on:
-  push:
+  pull_request_review:
+    types: [edited, dismissed, submitted]
   
 jobs:
   setup:
